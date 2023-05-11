@@ -1,0 +1,21 @@
+=>In JavaScript, both the document and window objects are important objects that provide a wide range of functionality. While they are related, they serve different purposes and have different properties and methods. In this blog, we will explore the differences between these two objects.
+
+=>The window object provides a number of properties that allow us to access various aspects of the browser window or tab. For example, we can access the current URL using the window.location property or access the size and position of the window using the window.innerHeight and window.innerWidth properties.
+        
+        SYNTAX: window.property_name;
+        Example: window.innerHeight :-will return the height of the content area of the browser.
+
+=>The document object provides a range of properties and methods for manipulating the content of the page. For example, we can use the document.getElementById() method to get a reference to an element on the page and modify its content using the innerHTML property.
+        
+        SYNTAX: "document.method_name;"
+        Example: document.title :-will return the title of the document
+
+Differences Between document and window:
+=>While both the document and window objects are essential in JavaScript, they have different roles and provide different functionality. The main differences between them are:
+
+.The window object represents the browser window or tab, while the document object represents the web page or document currently loaded in that window.
+.The window object provides access to a wide range of browser functionality, while the document object provides access to the content of the web page.
+.The window object provides properties and methods for navigating the browser, setting timers, and interacting with browser features, while the document object provides properties and methods for manipulating the content of the web page.
+
+Conclusion:
+=>In summary, the window and document objects in JavaScript are both essential for creating dynamic and interactive web pages. The window object represents the browser window or tab and provides access to a wide range of browser functionality, while the document object represents the web page or document currently loaded in that window and provides access to the content of the page. Understanding the differences between these two objects is crucial for creating effective and efficient JavaScript code.
